@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /hint
+gave up ? come on you are almost there... start hacking !
