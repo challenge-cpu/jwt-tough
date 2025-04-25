@@ -1,0 +1,58 @@
+:root {
+    --theme-color: #1c2526;
+    --text-color: #e0e0e0;
+    --accent-color: #00cc99;
+    --secondary-bg: #121212;
+}
+
+:not(i) {
+    font-family: 'Sofia Pro', sans-serif !important;
+}
+
+body {
+    background-color: var(--secondary-bg);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    background: #1c2526;
+    border: 1px solid #00cc99;
+    color: white;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+button, .btn {
+    background-color: transparent;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: all 0.2s ease;
+    margin-top: 1rem;
+}
+
+button:hover, .btn:hover {
+    background-color: var(--accent-color);
+    color: var(--secondary-bg);
+    box-shadow: 0 0 5px var(--accent-color);
+}
+
+.hint {
+    margin-top: 2rem;
+    color: #888;
+    font-size: 0.95rem;
+}

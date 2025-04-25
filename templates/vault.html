@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Peshwa Vault Entry</title>
+    <link href="https://fonts.cdnfonts.com/css/sofia-pro" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h2>Enter the Vault</h2>
+    <form action="/login" method="POST">
+        <input name="username" placeholder="Your name" required>
+        <button type="submit">Enter</button>
+    </form>
+</body>
+</html>
